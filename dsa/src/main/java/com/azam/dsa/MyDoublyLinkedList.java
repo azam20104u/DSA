@@ -1,8 +1,5 @@
 package com.azam.dsa;
 
-import java.util.Iterator;
-
-//Note: Not implemented yet 
 public class MyDoublyLinkedList {
 
 	Node start;
@@ -12,8 +9,10 @@ public class MyDoublyLinkedList {
 		int data;
 		Node next;
 		Node prev;
+
 		public Node(int data) {
 			this.data = data;
+			prev = null;
 			next = null;
 		}
 	}
@@ -26,6 +25,7 @@ public class MyDoublyLinkedList {
 		} else {
 			Node temp = new Node(data);
 			end.next = temp;
+			temp.prev = end;
 			end = temp;
 		}
 	}
@@ -38,6 +38,7 @@ public class MyDoublyLinkedList {
 			end = start;
 		} else {
 			Node temp = start;
+			start.prev = newNode;
 			start = newNode;
 			start.next = temp;
 		}
@@ -55,9 +56,27 @@ public class MyDoublyLinkedList {
 		return false;
 	}
 
-	//delete
-	//reversPrint()
-	
+	// delete
+	public boolean delete(int data) {
+		Node previous = null;
+		Node current = start;
+		while (current != null) {
+			if (current.data == data) {
+				if (previous == null) {
+					start = current.next;
+				} else {
+					previous.next = current.next;
+					if (current.next!= null) {
+                        current.next.prev = previous;
+                    }
+				}
+				return true;
+			}
+			previous = current;
+			current = current.next;
+		}
+		return false;
+	}
 
 	public void print() {
 		Node current = start;
@@ -67,21 +86,30 @@ public class MyDoublyLinkedList {
 		}
 	}
 
+	// reversPrint()
+	public void revPrint() {
+		Node current = end;
+		while (current != null) {
+			System.out.println(current.data);
+			current = current.prev;
+		}
+	}
 
 	public static void main(String[] args) {
 		MyDoublyLinkedList list = new MyDoublyLinkedList();
 		list.add(10);
 		list.add(20);
 		list.add(30);
+		list.add(40);
 		list.addFirst(50);
+		list.addFirst(60);
 		list.print();
-		System.out.println(list.findElement(50));
-		System.out.println(list.findElement(40));
-//		System.out.println(list.deleteElement(30));
-//		System.out.println(list.deleteElement(40));
+		System.out.println("reverse printing");
+		list.revPrint();
+		list.delete(10);
+		System.out.println("After deleted");
 		list.print();
-		System.out.println("after revrse");
-//		list.reverse();
-		list.print();
+		System.out.println("reverse printing");
+		list.revPrint();
 	}
 }

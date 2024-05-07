@@ -2,7 +2,7 @@ package com.azam.dsa;
 
 import java.util.Iterator;
 
-public class MyLinkedList {
+public class MySinglyLinkedList {
 
 	Node start;
 	Node end;
@@ -97,7 +97,7 @@ public class MyLinkedList {
 	}
 
 	public static void main(String[] args) {
-		MyLinkedList list = new MyLinkedList();
+		MySinglyLinkedList list = new MySinglyLinkedList();
 		list.add(10);
 		list.add(20);
 		list.add(30);
