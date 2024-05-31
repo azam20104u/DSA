@@ -1,0 +1,126 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "SwapPairNodeLinkedList",
+            "request": "launch",
+            "mainClass": "com.azam.dsa.InterviewBit.SwapPairNodeLinkedList",
+            "projectName": "dsa"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "com.azam.dsa.App",
+            "projectName": "dsa"
+        },
+        {
+            "type": "java",
+            "name": "MajorityElement",
+            "request": "launch",
+            "mainClass": "com.azam.dsa.InterviewBit.MajorityElement",
+            "projectName": "dsa"
+        },
+        {
+            "type": "java",
+            "name": "PalindromWithRecursion",
+            "request": "launch",
+            "mainClass": "com.azam.dsa.InterviewBit.PalindromWithRecursion",
+            "projectName": "dsa"
+        },
+        {
+            "type": "java",
+            "name": "Permutation",
+            "request": "launch",
+            "mainClass": "com.azam.dsa.InterviewBit.Permutation",
+            "projectName": "dsa"
+        },
+        {
+            "type": "java",
+            "name": "LevelOrderBTree",
+            "request": "launch",
+            "mainClass": "com.azam.dsa.LevelOrderBTree",
+            "projectName": "dsa"
+        },
+        {
+            "type": "java",
+            "name": "LinkedListPractice",
+            "request": "launch",
+            "mainClass": "com.azam.dsa.LinkedListPractice",
+            "projectName": "dsa"
+        },
+        {
+            "type": "java",
+            "name": "MyBinaryTree",
+            "request": "launch",
+            "mainClass": "com.azam.dsa.MyBinaryTree",
+            "projectName": "dsa"
+        },
+        {
+            "type": "java",
+            "name": "MyDoublyLinkedList",
+            "request": "launch",
+            "mainClass": "com.azam.dsa.MyDoublyLinkedList",
+            "projectName": "dsa"
+        },
+        {
+            "type": "java",
+            "name": "MySinglyLinkedList",
+            "request": "launch",
+            "mainClass": "com.azam.dsa.MySinglyLinkedList",
+            "projectName": "dsa"
+        },
+        {
+            "type": "java",
+            "name": "PainterBinarySearch",
+            "request": "launch",
+            "mainClass": "com.azam.dsa.PainterBinarySearch",
+            "projectName": "dsa"
+        },
+        {
+            "type": "java",
+            "name": "QuickSortDemo",
+            "request": "launch",
+            "mainClass": "com.azam.dsa.QuickSortDemo",
+            "projectName": "dsa"
+        },
+        {
+            "type": "java",
+            "name": "StackBalanceParanthises",
+            "request": "launch",
+            "mainClass": "com.azam.dsa.StackBalanceParanthises",
+            "projectName": "dsa"
+        },
+        {
+            "type": "java",
+            "name": "ZigzagBTree",
+            "request": "launch",
+            "mainClass": "com.azam.dsa.ZigzagBTree",
+            "projectName": "dsa"
+        },
+        {
+            "type": "java",
+            "name": "Diffk",
+            "request": "launch",
+            "mainClass": "com.azam.dsa.hackerRank.Diffk",
+            "projectName": "dsa"
+        },
+        {
+            "type": "java",
+            "name": "MirrorImageTriangle19",
+            "request": "launch",
+            "mainClass": "com.azam.dsa.pattern.MirrorImageTriangle19",
+            "projectName": "dsa"
+        }
+    ]
+}
