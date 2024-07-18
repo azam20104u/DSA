@@ -6,6 +6,69 @@
     "configurations": [
         {
             "type": "java",
+            "name": "BubleSort",
+            "request": "launch",
+            "mainClass": "com.azam.dsa.BubleSort",
+            "projectName": "dsa"
+        },
+        {
+            "type": "java",
+            "name": "SumEvenNum",
+            "request": "launch",
+            "mainClass": "com.azam.dsa.java8.SumEvenNum",
+            "projectName": "dsa"
+        },
+        {
+            "type": "java",
+            "name": "VoteEligible",
+            "request": "launch",
+            "mainClass": "com.azam.dsa.java8.VoteEligible",
+            "projectName": "dsa"
+        },
+        {
+            "type": "java",
+            "name": "MapVsFlatMap",
+            "request": "launch",
+            "mainClass": "com.azam.dsa.java8.MapVsFlatMap",
+            "projectName": "dsa"
+        },
+        {
+            "type": "java",
+            "name": "FindSumTwoNum",
+            "request": "launch",
+            "mainClass": "com.azam.dsa.FindSumTwoNum",
+            "projectName": "dsa"
+        },
+        {
+            "type": "java",
+            "name": "Java8Program",
+            "request": "launch",
+            "mainClass": "com.azam.dsa.java8.Java8Program",
+            "projectName": "dsa"
+        },
+        {
+            "type": "java",
+            "name": "Coforg",
+            "request": "launch",
+            "mainClass": "com.azam.dsa.Coforg",
+            "projectName": "dsa"
+        },
+        {
+            "type": "java",
+            "name": "ConcurrentApi",
+            "request": "launch",
+            "mainClass": "com.azam.dsa.InterviewBit.ConcurrentApi",
+            "projectName": "dsa"
+        },
+        {
+            "type": "java",
+            "name": "RemoveDuplicateSortedArray",
+            "request": "launch",
+            "mainClass": "com.azam.dsa.InterviewBit.RemoveDuplicateSortedArray",
+            "projectName": "dsa"
+        },
+        {
+            "type": "java",
             "name": "SwapPairNodeLinkedList",
             "request": "launch",
             "mainClass": "com.azam.dsa.InterviewBit.SwapPairNodeLinkedList",

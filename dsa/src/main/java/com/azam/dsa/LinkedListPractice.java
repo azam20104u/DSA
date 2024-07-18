@@ -11,7 +11,7 @@ class Node {
 
 class CustomLinkedList {
 	Node start;
-	Node end;
+	Node end; 
 	public CustomLinkedList() {
 		start = null;
 	}

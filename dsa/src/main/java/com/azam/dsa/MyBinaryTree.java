@@ -62,9 +62,9 @@ public class MyBinaryTree {
 		if (root==null) {
 			return;
 		}
-		postOrderTraversal(root.left);
 		postOrderTraversal(root.right);
-		System.out.print(root.data);
+		System.out.println(root.data);
+		postOrderTraversal(root.left);
 	}
 
 	public static void main(String[] args) {
